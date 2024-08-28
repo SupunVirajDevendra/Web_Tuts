@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tut 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1>Hotel Reservation</h1>
+        <form>
+            <fieldset class="e1">
+            <legend class="s2">Personal details</legend><br><br>
+            <label for="firstname">First name :</label>
+            <input style="margin-left: 40px;" type="text" placeholder="Enter your first name" name="firstname"><br><br>
+            <label for="lastname">Last name :</label>
+            <input style="margin-left: 40px;" type="text" placeholder="Enter your surname" name="surname"><br><br>
+            <label for="email">Email Address :</label>
+            <input style="margin-left: 12px;" type="text" name="email"><br><br>
+            <label for="password">Set up Password  :</label>
+            <input type="text"  size="50" placeholder="Min 8 characters,use at least 1caps,no special characters" name="password"><br><br>
+            </fieldset>
+        </form><br>
+
+        <form>
+            <fieldset class="e2">
+            <legend class="s2">Booking details</legend><br>
+            <label>CheckIn day : </label>
+            <input style="margin-left: 60px;" type="date" value="14-02-2023"><br><br>
+            <label for="days">Number of days :</label>
+            <input style="margin-left: 40px;" type="text" name="days"><br><br>
+            <label for="room1">Single Room</label>
+            <input style="margin-left: 68px;" type="radio" id="room1" name="room" value="room1"><br><br>
+            <label for="room2">Double Room</label>
+            <input style="margin-left: 63px;" type="radio" id="room2" name="room" value="room2"><br><br>
+            <label for="room3">King Room</label>
+            <input style="margin-left: 78px;" type="radio" id="room3" name="room" value="room3">
+            <br><br><br>
+            <label for="topping">Breakfast :</label>
+                <select style="margin-left: 82px;" name="Topping" id="Topping">
+                    <option value="Include" selected>Include</option>
+                    <option value="Not Include" selected>Not Include</option>
+                </select><br><br>
+            <label for="Requirements">Special Requirements :</label><br>
+            <textarea style="margin-left: 175px;margin-top: -15px;" cols="20" rows="5" placeholder="Please provide any special requirements"></textarea><br><br>
+        </fieldset><br>
+
+        <fieldset class="s3" style="border-radius: 1cap;">
+        <form>
+            <input class="end"  type="submit" value ="Send"  name="button1">
+            <input class="end" type="reset" value="Reset" name="button2">
+        </fieldset>
+
+        </form>
+
+    </body>
+
+</html>
